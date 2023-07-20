@@ -1,0 +1,111 @@
+/* body {
+	background-color: rgb(0, 0, 119);
+	color: yellow;
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+}
+
+h1, h2, table, footer {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 6;
+}
+
+table {
+	background-color: darkblue;
+}
+
+input {
+	grid-column-start: 4;
+}
+
+#score1 {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 7;
+}
+
+#score2 {
+	text-align: center;
+	grid-column-start: 4;
+	grid-column-end: span 3;
+	grid-row-start: 7;
+}
+
+#container5 {
+	grid-row-start: 5;
+}
+
+#guessButton {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 6;
+}
+
+#passButton {
+	text-align: center;
+	grid-column-start: 4;
+	grid-column-end: span 3;
+	grid-row-start: 6;
+}
+
+#nextButton {
+	grid-column-start: 6;
+}
+
+footer{
+	grid-row-start: 8;
+} */
+
+body {
+	background-color: rgb(0, 0, 119);
+	color: yellow;
+}
+
+h1, h2, div, footer {
+	text-align: center;
+	margin: auto;
+}
+
+#finalCategory {
+	width: 20%;
+	background-color: black;
+}
+
+#finalQuestion {
+	width: 60%;
+	height: 300px;
+	line-height: 300px;
+	background-color: lightblue;
+	font-size: xx-large;
+}
+
+input {
+	display: block;
+	margin: auto;
+}
+
+button {
+	margin: 5px auto;
+	padding: 0px 50px;
+}
+
+p {
+	display: inline;
+	padding: 0px 100px;
+	margin: auto;
+}
+
+#nextButton {
+	margin-left: 70%;
+}
+
+#prevButton {
+	margin-left: 20%;
+}
+
+footer {
+	margin-top: 10%;
+}
