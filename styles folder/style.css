@@ -26,13 +26,18 @@ h1 {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	transition-property: padding background-color;
+	transition-duration: 1s;
 }
 
 #play-button:hover {
+	background-color: rgb(99, 99, 99);
 	padding-left: 100px;
 	padding-right: 100px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	transition-property: padding background-color;
+	transition-duration: 1s;
 }
 
 footer {

@@ -1,0 +1,117 @@
+/* body {
+	background-color: rgb(0, 0, 119);
+	color: yellow;
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+}
+
+h1, h2, table, footer {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 6;
+}
+
+table {
+	background-color: darkblue;
+}
+
+input {
+	grid-column-start: 4;
+}
+
+#score1 {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 7;
+}
+
+#score2 {
+	text-align: center;
+	grid-column-start: 4;
+	grid-column-end: span 3;
+	grid-row-start: 7;
+}
+
+#container5 {
+	grid-row-start: 5;
+}
+
+#guessButton {
+	text-align: center;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+	grid-row-start: 6;
+}
+
+#passButton {
+	text-align: center;
+	grid-column-start: 4;
+	grid-column-end: span 3;
+	grid-row-start: 6;
+}
+
+#nextButton {
+	grid-column-start: 6;
+}
+
+footer{
+	grid-row-start: 8;
+} */
+
+body {
+	background-color: rgb(0, 0, 119);
+	color: yellow;
+}
+
+h1, h2, div, footer {
+	text-align: center;
+	margin: auto;
+}
+
+table {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+
+th {
+	background-color: darkblue;
+}
+
+th:hover {
+	background-color: black;
+}
+
+td {
+	background-color: lightblue;
+}
+
+td:hover {
+	background-color: white;
+	color: black;
+}
+
+input {
+	display: block;
+	margin: auto;
+}
+
+button {
+	margin: auto;
+	padding: 0px 50px;
+}
+
+p {
+	display: inline;
+	padding: 0px 100px;
+	margin: auto;
+}
+
+#nextButton {
+	margin-left: 70%;
+}
+
+footer {
+	margin-top: 25%;
+}
